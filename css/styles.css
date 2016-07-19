@@ -1,0 +1,73 @@
+body {
+	background-color: #DFA06E;
+}
+
+h1 {
+	border: black 5px solid;
+	/*	border-radius: 8px;*/
+	padding-bottom: 20px;
+	padding-top: 20px;
+	color: black;
+	font-family: Brush Script MT,cursive;
+	font-size: 50px;
+	/*text-shadow: 1px 1px gray;*/
+	text-align: center;
+}
+
+h3 {
+	text-align: left;
+	color: black;
+	font-family: 'Nunito', sans-serif;
+	font-size: 20px;
+}
+
+/*.beginning {
+	font-family: "Arial Rounded MT Bold","Helvetica Rounded",Arial,sans-serif;
+	text-align: left;
+	padding-right: 50%;
+}*/
+
+.beginning {
+	margin: 10px;
+	width: 50%;
+	float: left;
+	text-align: left;
+	font-family: 'Nunito', sans-serif;
+	font-size: 30px;
+}
+
+.beginningp {
+	margin: 10px;
+	width: 50%;
+	float: left;
+	text-align: left;
+	font-family: 'Nunito', sans-serif;
+}
+
+.aboutme {
+	padding-left:50%;
+	font-family: 'Nunito', sans-serif;
+	margin: 10px;
+	font-size: 30px;
+}
+
+.aboutmename {
+	padding-left:50%;
+	font-family: 'Nunito', sans-serif;
+	margin: 10px;
+	font-size: 20px;
+}
+
+.aboutmep {
+	padding-left:50%;
+	font-family: 'Nunito', sans-serif;
+	margin: 10px;
+}
+
+.three {
+	text-align: center;
+	font-family: 'Nunito', sans-serif;
+	font-size: 30px;
+}
+
+#A1C084 #C6AC8F #C9A690 #87B37A #D4B483
