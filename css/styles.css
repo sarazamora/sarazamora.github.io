@@ -45,10 +45,11 @@ h3 {
 }
 
 .aboutme {
-	padding-left:50%;
+	padding-left:70%;
 	font-family: 'Nunito', sans-serif;
-	margin: 10px;
 	font-size: 30px;
+    margin-left: auto;
+    margin-right: auto
 }
 
 .aboutmename {
@@ -56,6 +57,7 @@ h3 {
 	font-family: 'Nunito', sans-serif;
 	margin: 10px;
 	font-size: 20px;
+	text-align: center;
 }
 
 .aboutmep {
@@ -69,5 +71,25 @@ h3 {
 	font-family: 'Nunito', sans-serif;
 	font-size: 30px;
 }
+
+h4 {
+	font-family: 'Nunito', sans-serif;
+	font-size: 20px;
+	text-align: center;
+}
+
+IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+
+#selfie{
+	display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
 
 #A1C084 #C6AC8F #C9A690 #87B37A #D4B483
