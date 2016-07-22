@@ -55,33 +55,13 @@ function initMap() {
 
 }
 
-function toggleBounce() {
-  if (marker.getAnimation() !== null) {
-    marker.setAnimation(null);
-  } else {
-    marker.setAnimation(google.maps.Animation.BOUNCE);
-  }
-}
 
-var contentString = '<div id="content">' + 
-	'<div id="siteNotice">'+
-      '</div>'+
-      '<h1 id="firstHeading" class="firstHeading">Taj Mahal</h1>'+
-      '<div id="bodyContent">'+
-      '<p><b>Taj Mahal</b>,The most perfect jewel of Muslim art in India!
-    <img src="images/tajmahal.jpg"></p>
+ 	function toggleBounce() {
+    if (marker.getAnimation() !== null) {
+      marker.setAnimation(null);
+    } else {
+      marker.setAnimation(google.maps.Animation.BOUNCE);
+ }
+ }
 
-var informationWindow = n google.maps.InfoWindow( {
-	content: ".tajmahal"
-});
 
-var marker = new google.maps.Marker ( {
-	position: {lat: 27.175015, lng: 78.042155}
-	map: map
-	titile: 'Taj Mahal'
-});
-
-marker.addListener('click', function(){
-	infowindow.open(map, marker);
-});
-}
